@@ -6,7 +6,7 @@
 // Delaring with 'var' will make them global
 // variables.
 
-var aliceSays, bobSays, CarolSays, danSays, ellieSays, frankSays, harrySays, ivySays, jackSays;
+var alicesSays, bobsSays, carolsSays, dansSays, elliesSays, franksSays, harrysSays, ivysSays, jackSays;
 
 
 // this variable is set to a string.
@@ -24,11 +24,40 @@ ivySays = harrySays;
 jackSays = ivySays;
 
 // call setNames from
+alcieselm = document.querySelector("#aliceSays");
+alcieselm.textContent = alicesSays;
+
+bobselm = document.querySelector("#bobSays");
+bobselm.textContent = bobsSays;
+
+carolsElm= document.querySelector("#carolSays");
+carolsElm.textContent = carolSays;
+
+dansElm= document.querySelector("#danSays");
+dansElm.textContent = danSays;
+
+elliesElm= document.querySelector("#ellieSays");
+elliesElm.textContent = ellieSays;
+
+franksElm= document.querySelector("#frankSays");
+franksElm.textContent = frankSays;
+
+gregsElm= document.querySelector("#gregSays");
+gregsElm.textContent = gregSays;
+
+harrysElm= document.querySelector("#harrySays");
+harrysElm.textContent = harrySays;
+
+ivysElm= document.querySelector("#ivySays");
+ivysElm.textContent = ivySays;
+
+jacksElm= document.querySelector("#jackSays");
+jacksElm.textContent = jackSays;
 
 
 
-colorBtn = document.querySelector="#"
-("#color-Switch");
+colorBtn = document.querySelector= ("theMessage")
+("color-Switch");
 
 setMessages();
 

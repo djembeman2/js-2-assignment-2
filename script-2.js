@@ -25,9 +25,12 @@ harrysBulletin = gregsBulletin;
 ivysBulletin = harrysBulletin;
 jacksBulletin = ivysBulletin;
 
+let alicesBulletin={
+  meesgae: "I love You"
+}
 
 // call setNames from 'messages.js'
 // to set the messages in the DOM.
 setBulletins();
-let colorBtn= document.querySelector("alice-says");
+let colorBtn= document.querySelector("#alice-says");
 updateBtn.onclick = setWhatWeSaid
