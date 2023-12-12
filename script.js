@@ -25,9 +25,10 @@ jackSays = ivySays;
 
 // call setNames from
 
-//let aliceBtn;
-//aliceBtn = document.querySelector//////
-////("#color-Switch");
+
+
+colorBtn = document.querySelector="#"
+("#color-Switch");
 
 setMessages();
 

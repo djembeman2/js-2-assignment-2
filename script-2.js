@@ -17,8 +17,17 @@ schoolBulletin = {
 alicesBulletin = schoolBulletin;
 bobsBulletin = alicesBulletin;
 carolsBulletin = bobsBulletin;
+dansBulletin = carolsBulletin;
+elliesBulletin = dansBulletin;
+franksBulletin = elliesBulletin;
+gregsBulletin = franksBulletin;
+harrysBulletin = gregsBulletin;
+ivysBulletin = harrysBulletin;
+jacksBulletin = ivysBulletin;
 
 
 // call setNames from 'messages.js'
 // to set the messages in the DOM.
 setBulletins();
+let colorBtn= document.querySelector("alice-says");
+updateBtn.onclick = setWhatWeSaid
